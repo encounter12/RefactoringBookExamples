@@ -3,7 +3,7 @@ using NullObject.Console;
 
 // explore console output when site has no customer,
 // then change siteHasCustomer's vaue to: true and evaluate again console output
-Site site = SiteFactory.Create(siteHasCustomer: true);
+Site site = SiteFactory.Create(siteHasCustomer: false);
 
 Customer customer = site.Customer;
 
