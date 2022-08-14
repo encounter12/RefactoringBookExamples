@@ -1,6 +1,6 @@
-# Null Object (my thoughts)
+# Null Object (improvements)
 
-NullCustomer class is unnecessary since Customer class does not have any behavior (methods), so there is no behavior to override. So, the solution is to delete NullCustomer.cs and add CreateDefault() static factory method in [Customer.cs](/NullObject.Console/Models/Customer.cs), which creates Customer object with default values:
+NullCustomer class is unnecessary since Customer class does not have any behavior (methods), so there is no behavior to override. The solution is to delete NullCustomer.cs and add ```CreateDefault()``` static factory method in [Customer.cs](NullObject.Console/Models/Customer.cs), which creates Customer object with default values:
 
 ```csharp
 public static Customer CreateDefault() => new Customer
