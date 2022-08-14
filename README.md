@@ -3,6 +3,8 @@ This repository contains my exercises when reading Martin Fowler's book:
 
 [Refactoring: Improving the Design of Existing Code, 1st Edition](https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/)  
 
+All examples are in C# 10, .NET 6.0 (translated from original Java in the book)
+
 --------------------
 
 ## Chapter 9: Simplifying Conditional Expressions
