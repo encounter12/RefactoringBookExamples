@@ -5,6 +5,8 @@ This repository contains my exercises when reading Martin Fowler's book:
 
 All examples are in C# 10, .NET 6.0 (translated from original Java in the book)
 
+* Note: **Before** and **After** are source code examples from Martin Fowler's book, **Final** are my improvements and interpretations.
+
 --------------------
 
 ## Chapter 9: Simplifying Conditional Expressions
@@ -13,8 +15,7 @@ All examples are in C# 10, .NET 6.0 (translated from original Java in the book)
 (Page: 260)
 
 You have repeated checks for a null value. Replace the null value with a null object.  
-See: [Before](/NullObject/Before), [After](/NullObject/After) and [Final](/NullObject/Final)  
-* **Before** and **After** are source code examples from Martin Fowler's book, **Final** are my improvements and interpretations.
+See: [Before](/NullObject/Before) | [After](/NullObject/After) | [Final](/NullObject/Final)  
 
 In [Refactoring, 2nd edition](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature-dp-0134757599/dp/0134757599/) this refactoring technique is listed as: [Introduce Special Case](https://refactoring.com/catalog/introduceSpecialCase.html)
 
