@@ -14,7 +14,7 @@ public static Customer CreateDefault() => new Customer
 
 In the above static factory method we asign a new instance of DefaultPaymentHistory (former: NullPaymentHistory), which inherits from PaymentHistory, so that we could override the method ```GetWeeksDelinquentInLastYear()``` and provide different behavior for it.
 
-After that we invoke ```Customer.CreateDefault()``` in [Site.cs](/NullObject.Console/Models/Site.cs) when site.Customer is null:
+After that we invoke ```Customer.CreateDefault()``` in [Site.cs](NullObject.Console/Models/Site.cs) when site.Customer is null:
 
 ```csharp
 public class Site
