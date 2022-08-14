@@ -2,9 +2,9 @@ public class Customer
 {
     public bool IsDefault { get; private set; } = false;
 
-    public virtual string Name { get; set; }
+    public string Name { get; set; }
 
-    public virtual BillingPlan Plan { get; set; }
+    public BillingPlan Plan { get; set; }
 
     public virtual PaymentHistory History { get; set;} = PaymentHistory.Create();
 
