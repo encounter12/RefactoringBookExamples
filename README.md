@@ -7,7 +7,9 @@ This repository contains my exercises when reading Martin Fowler's book:
 
 ## Chapter 9: Simplifying Conditional Expressions
 
-### 07. Introduce Null Object
+### 07. Introduce Null Object  
+(Page: 260)
+
 You have repeated checks for a null value. Replace the null value with a null object.  
 See: [Before](/NullObject/Before), [After](/NullObject/After) and [Final](/NullObject/Final)  
 * **Before** and **After** are source code examples from Martin Fowler's book, **Final** are my improvements and interpretations.
